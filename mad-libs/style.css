@@ -8,3 +8,20 @@ input {
 input[type=submit] {
     margin-top: 10px;
 }
+button {
+    background-color: grey;
+    border-radius: 5px;
+    font-size: 20px;
+}
+nav {
+    background-color: black;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+  }

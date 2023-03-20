@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <nav>
+        <button onclick="location.href='paniek.php'">Er heerst paniek...</button>
+        <button onclick="location.href='onkunde.php'">Onkunde</button>
+    </nav>
     <h1>Onkunde</h1>
     <?php
         if(count(array_filter($_POST))==count($_POST)) {
@@ -23,5 +28,8 @@
             header('Location: onkunde.php');
         }
     ?>
+    <footer>
+        © Jurrian Schouten 2023
+    </footer>
 </body>
 </html>

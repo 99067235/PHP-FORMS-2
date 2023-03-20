@@ -8,6 +8,10 @@
     <title>Onkunde</title>
 </head>
 <body>
+    <nav>
+        <button onclick="location.href='paniek.php'">Er heerst paniek...</button>
+        <button onclick="location.href='onkunde.php'">Onkunde</button>
+    </nav>
     <h1>Onkunde</h1>
     <div>
         <form method="post" action="onkunde-result.php">
@@ -42,5 +46,8 @@
             <input type="submit" value="Submit" id="submit">
         </form>
     </div>
+    <footer>
+        © Jurrian Schouten 2023
+    </footer>
 </body>
 </html>
